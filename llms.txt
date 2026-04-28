@@ -52,6 +52,27 @@ Key starter pages:
 - Verify a contract address: ./encyclopedia/on-chain-transparency/how_to_verify_a_contract_address.md
 - Glossary (core terms): ./encyclopedia/glossary/core_terms.md
 
+## Education (practical user POV guides; beginner-to-advanced)
+
+High-level topic map:
+
+- Getting started safely: ./education/getting-started-safely.md
+- Understanding your risk tolerance: ./education/understanding-your-risk-tolerance.md
+- Self-assessment series (multiple risk types): ./education/self-assess-*.md
+- Step-by-step due diligence: ./education/step-by-step-due-diligence.md
+- Reading financial documents: ./education/reading-financial-documents.md
+- Avoiding common mistakes: ./education/avoiding-common-mistakes.md
+- How to calculate real returns: ./education/how-to-calculate-real-returns.md
+- Building a simple portfolio: ./education/building-a-simple-portfolio.md
+- Long-term thinking: ./education/long-term-thinking.md
+
+Key starter pages:
+
+- Getting started safely: ./education/getting-started-safely.md
+- Step-by-step due diligence: ./education/step-by-step-due-diligence.md
+- Understanding your risk tolerance: ./education/understanding-your-risk-tolerance.md
+- Self-assess your risk profile (full set): ./education/self-assess-*.md
+
 ## Safety note
 
 This is not financial advice. Smart-contract risk, asset-issuer risk, custody risk,
