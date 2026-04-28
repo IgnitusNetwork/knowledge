@@ -35,7 +35,3 @@ In `knowledge/encyclopedia/**`, do **not** name other protocols, projects, excha
 - `market-data-reference/`: Static examples and “how to read data” guidance.
 - `scripts/`: Tiny utilities (validation, indexing helpers).
 
-## Future: publishing to the website (not enabled yet)
-
-This repo keeps `knowledge/` as authoring source-of-truth. A future sync step can selectively publish a subset into `web/src/public/docs/` and extend the website’s `llms.txt`.
-
