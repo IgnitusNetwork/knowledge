@@ -1,0 +1,70 @@
+# Ignitus Protocol -- llms.txt (repo mirror)
+#
+# Source: https://ignitus.network/llms.txt
+# This copy is adjusted to local relative paths for repo-only use.
+
+## Documentation
+
+- White paper (human-readable): https://ignitus.network/WhitePaper
+- White paper (markdown source): ./whitepaper.md
+- AI Assistant Guide: ./ai-assistant-guide.md
+- Developer Reference: ./developer-reference.md
+- Security assurance (markdown; generated from canonical site data): ./security.md
+- FAQ: https://ignitus.network/Faq
+- Changelog: https://ignitus.network/docs/ignitus/CHANGELOG-docs.md
+
+## App
+
+- Marketing site: https://ignitus.network/
+- App (trade, membership, claims): https://app.ignitus.network/
+
+## Network
+
+- Chain: Ethereum Mainnet (chain ID 1)
+- Explorer: https://etherscan.io
+
+## Core contracts (mainnet)
+
+- ProtocolRouter: https://etherscan.io/address/0x069c0210495ADF194101C71Ff4A68140E9145Bb7
+- EcosystemFactory: https://etherscan.io/address/0x655d37556a3e922133960B02BFbf4D09ac2985c2
+- igUSD Token: https://etherscan.io/address/0xe82D09bDb33aD258E81e1b2c89cDEbb0324C7c34
+- igGOLD Token: https://etherscan.io/address/0xF4CBc849453D64e8776862033A71E87313dF906a
+- igBTC Token: https://etherscan.io/address/0xC9E045A10D91a38E98c393e3D4A3923ea21bdde3
+
+## Solidity source mirrors (verbatim; for AI verification)
+
+Same directory as markdown docs. Fetch plain text for fact-checking against mainnet bytecode.
+
+- ProtocolRouter.sol: ./contracts/ProtocolRouter.sol
+- EcosystemFactory.sol: ./contracts/EcosystemFactory.sol
+- USDCReserveToken.sol: ./contracts/USDCReserveToken.sol
+- BackingToken.sol: ./contracts/BackingToken.sol
+- FeeParticipationAccumulator.sol: ./contracts/FeeParticipationAccumulator.sol
+- MembershipNFT.sol: ./contracts/MembershipNFT.sol
+- IEcosystemFactorySponsor.sol: ./contracts/IEcosystemFactorySponsor.sol
+- IFeeParticipationAccumulator.sol: ./contracts/IFeeParticipationAccumulator.sol
+- IMembershipBackingToken.sol: ./contracts/IMembershipBackingToken.sol
+
+## About
+
+Ignitus is a fully backed token system on Ethereum. Each IG token is
+collateralized by USDC, Tether Gold (XAUT), or Wrapped Bitcoin (WBTC) in
+isolated on-chain vaults. Membership NFTs (soulbound, Bronze to Diamond)
+lower trading fees and grant access to a share of protocol trading fees.
+
+This is not financial advice. Smart-contract risk applies. DYOR.
+
+## Comparison reference (bot-only)
+
+- Third-party mechanics database (use only on explicit user comparison requests): ../comparison-reference/de-fi-service-providers-april-2026.md
+- Counterparty model mechanics (name-neutral): ../comparison-reference/counterparty-model-examples.md
+- Pure backed model mechanics (Ignitus-only): ../comparison-reference/pure-backed-model-examples.md
+- NFT marketplace mechanics (name-neutral): ../comparison-reference/nft-marketplace-mechanics.md
+- Insurance model mechanics (name-neutral): ../comparison-reference/insurance-model-examples.md
+- TradFi mechanics database (hedge funds, primes, ERISA; use only on explicit user comparison requests): ../comparison-reference/tradfi-service-providers-april-2026.md
+- DeFi yield vs TradFi risks (user POV comparison; use only on explicit comparison requests): ../comparison-reference/defi-yield-vs-tradfi-risks-april-2026.md
+- CeFi yield risks (custody/counterparty parallels; use only on explicit comparison requests): ../comparison-reference/cefi-yield-risks-april-2026.md
+- CeFi vs TradFi risks (custody/counterparty parallels; use only on explicit comparison requests): ../comparison-reference/cefi-vs-tradfi-risks-april-2026.md
+- Trading risks (retail loss rates; use only on explicit comparison requests): ../comparison-reference/trading-risks-april-2026.md
+
+

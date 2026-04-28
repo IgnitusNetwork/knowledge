@@ -1,0 +1,23 @@
+# Forbidden proper nouns / protocol names for encyclopedia pages.
+#
+# The goal is to prevent accidental naming of other protocols/services.
+# Keep this list conservative and expandable over time.
+#
+# Notes:
+# - Matching is case-insensitive.
+# - Word-boundary matching is used; avoid spaces here.
+
+# Examples (add more as needed):
+bitcoin
+ethereum
+solana
+binance
+coinbase
+metamask
+chainlink
+alchemy
+infura
+uniswap
+aave
+compound
+

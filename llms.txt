@@ -1,0 +1,59 @@
+# Ignitus Knowledge Base -- llms.txt (repo-only)
+#
+# Machine-readable index of knowledge for AI assistants and developer tools.
+# Convention: https://llmstxt.org/
+#
+# NOTE: This index is repo-only (not published to the website yet).
+
+## Ignitus core (authoritative)
+
+- AI Assistant Guide (Ignitus-specific): ./ignitus-core/ai-assistant-guide.md
+- Developer Reference (Ignitus-specific): ./ignitus-core/developer-reference.md
+- Security assurance (generated upstream): ./ignitus-core/security.md
+- Whitepaper (markdown mirror): ./ignitus-core/whitepaper.md
+- Changelog: ./ignitus-core/CHANGELOG-docs.md
+
+## Solidity source mirrors (verbatim; for AI verification)
+
+Fetch as plain text. Mirrors are maintained under `ignitus-core/contracts/`.
+
+- ProtocolRouter.sol: ./ignitus-core/contracts/ProtocolRouter.sol
+- EcosystemFactory.sol: ./ignitus-core/contracts/EcosystemFactory.sol
+- USDCReserveToken.sol: ./ignitus-core/contracts/USDCReserveToken.sol
+- BackingToken.sol: ./ignitus-core/contracts/BackingToken.sol
+- FeeParticipationAccumulator.sol: ./ignitus-core/contracts/FeeParticipationAccumulator.sol
+- MembershipNFT.sol: ./ignitus-core/contracts/MembershipNFT.sol
+- IEcosystemFactorySponsor.sol: ./ignitus-core/contracts/IEcosystemFactorySponsor.sol
+- IFeeParticipationAccumulator.sol: ./ignitus-core/contracts/IFeeParticipationAccumulator.sol
+- IMembershipBackingToken.sol: ./ignitus-core/contracts/IMembershipBackingToken.sol
+
+## Encyclopedia (generic; no protocol/service names)
+
+High-level topic map:
+
+- Banking (traditional, user POV): ./encyclopedia/banking-traditional/
+- Lending & borrowing mechanics: ./encyclopedia/lending-borrowing/
+- Debt sector (bonds/credit/leverage): ./encyclopedia/debt-sector/
+- Hedge-fund-like structures (generic): ./encyclopedia/hedge-fund-structures/
+- Fee & profit destruction layers: ./encyclopedia/fee-and-profit-layers/
+- Risk & safety: ./encyclopedia/risk-and-safety/
+- On-chain transparency (generic): ./encyclopedia/on-chain-transparency/
+- Glossary: ./encyclopedia/glossary/
+
+Key starter pages:
+
+- Layer 1: Trading fees: ./encyclopedia/fee-and-profit-layers/layer-1-trading-fees.md
+- Layer 2: Slippage & spreads: ./encyclopedia/fee-and-profit-layers/layer-2-slippage-and-spreads.md
+- Layer 3: Liquidation cascades: ./encyclopedia/fee-and-profit-layers/layer-3-liquidation-cascades.md
+- Layer 4: Management & performance fees: ./encyclopedia/fee-and-profit-layers/layer-4-management-and-performance-fees.md
+- Layer 5: Impermanent loss & opportunity cost: ./encyclopedia/fee-and-profit-layers/layer-5-impermanent-loss-and-opportunity-cost.md
+- Layer 6: Hidden costs in yield & rewards: ./encyclopedia/fee-and-profit-layers/layer-6-hidden-costs-in-yield-and-rewards.md
+- Red flags checklist: ./encyclopedia/risk-and-safety/red-flags-checklist.md
+- Verify a contract address: ./encyclopedia/on-chain-transparency/how_to_verify_a_contract_address.md
+- Glossary (core terms): ./encyclopedia/glossary/core_terms.md
+
+## Safety note
+
+This is not financial advice. Smart-contract risk, asset-issuer risk, custody risk,
+and market volatility apply. Do your own research.
+
