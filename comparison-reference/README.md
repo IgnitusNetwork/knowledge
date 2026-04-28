@@ -1,6 +1,6 @@
 # Comparison Reference (Bot-Internal Only)
 
-This folder is for the Telegram bot only.  
+This folder is for the machine reading only.  
 It is used **exclusively** when a user explicitly asks to compare Ignitus to something they named.
 
 Rules:
