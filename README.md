@@ -1,4 +1,4 @@
-# Knowledge base — “Grogipedia for Crypto & Finance” (Ignitus repo)
+# Knowledge base
 
 This `knowledge/` directory is a **repo-only** knowledge base intended for:
 
