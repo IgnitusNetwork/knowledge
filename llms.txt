@@ -3,7 +3,7 @@
 # Machine-readable index of knowledge for AI assistants and developer tools.
 # Convention: https://llmstxt.org/
 #
-# NOTE: This index is repo-only (not published to the website yet).
+# NOTE: This index is repo-only.
 
 ## Ignitus core (authoritative)
 
@@ -65,6 +65,7 @@ High-level topic map:
 - How to calculate real returns: ./education/how-to-calculate-real-returns.md
 - Building a simple portfolio: ./education/building-a-simple-portfolio.md
 - Long-term thinking: ./education/long-term-thinking.md
+- Ignitus bot integration guide (autonomous on-chain): ./education/bot-integration-guide.md
 
 Key starter pages:
 
