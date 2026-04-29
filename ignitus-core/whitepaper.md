@@ -43,6 +43,11 @@ Each product operates in its own isolated vault with separate:
 - Membership NFT collection
 - Fee participation accumulator
 
+Ignitus Protocol Ethereum Addresses:
+- igUSD: `0xe82D09bDb33aD258E81e1b2c89cDEbb0324C7c34`
+- igGOLD: `0xF4CBc849453D64e8776862033A71E87313dF906a`
+- igBTC: `0xC9E045A10D91a38E98c393e3D4A3923ea21bdde3`
+
 ### 3.2 ProtocolRouter & EcosystemFactory
 
 - **ProtocolRouter**: Single user entrypoint for buys and refunds. Applies tier-based fee discounts and routes to the correct product.
