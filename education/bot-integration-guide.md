@@ -134,9 +134,9 @@ Your bot should treat `sponsor` as:
 - **An address** (not a tokenId) when calling `MembershipNFT.mintMembership(...)`.
 - For “link-based referrals” (UI flows), you may resolve a sponsor from a membership token, but the on-chain mint still takes a **sponsor address**.
 
-### Default referral link (works for first Bronze on any product)
+### Official default recommending-member link (first-time Bronze)
 
-If you want a single “default” referral link that sets a recommending member for **first-time Bronze mints**, use:
+If a new user does not have a personal referrer to sponsor their first membership mint, use the official default recommending-member link:
 
 - `https://app.ignitus.network/?Pr=0&R=0`
 
