@@ -76,6 +76,8 @@ You have two acceptable ABI sources:
 Key rules:
 - You must **approve the backing ERC-20 to the product IG token contract** (not the router).
 - `amount` is in **backing decimals** (USDC is 6; XAUT/WBTC use their own decimals).
+- The contracts enforce a small “dust” minimum (`MIN_AMOUNT = 1_000` backing units). The **official app UI** enforces higher minimums for UX:
+  - Buy minimums: **0.1 USDC** (product 0), **0.01 XAUT** (product 1), **0.001 WBTC** (product 2)
 
 Reference: [[ignitus-core/developer-reference.md]] (section “Buy IG tokens”).
 
