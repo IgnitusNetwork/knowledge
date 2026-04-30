@@ -90,6 +90,7 @@ Reference: [[ignitus-core/developer-reference.md]] (section “Buy IG tokens”)
 Key rules:
 - `tokenAmount` is in **18 decimals** (IG token units).
 - Your fee tier is resolved by the router from your highest membership tier.
+- Contracts enforce `MIN_IG_AMOUNT = 0.001 IG`, while the **official app UI** enforces **0.1 IG** minimum on sells (all products).
 
 ### 3) Mint / upgrade membership (soulbound NFT)
 
