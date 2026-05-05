@@ -25,11 +25,25 @@
 
 ## Core contracts (mainnet)
 
-- ProtocolRouter: https://etherscan.io/address/0x069c0210495ADF194101C71Ff4A68140E9145Bb7
-- EcosystemFactory: https://etherscan.io/address/0x655d37556a3e922133960B02BFbf4D09ac2985c2
-- igUSD Token: https://etherscan.io/address/0xe82D09bDb33aD258E81e1b2c89cDEbb0324C7c34
-- igGOLD Token: https://etherscan.io/address/0xF4CBc849453D64e8776862033A71E87313dF906a
-- igBTC Token: https://etherscan.io/address/0xC9E045A10D91a38E98c393e3D4A3923ea21bdde3
+- ProtocolRouter: https://etherscan.io/address/0x489eaCd7be965945dF742C73D0a1accEe78f5D06
+- EcosystemFactory: https://etherscan.io/address/0x8D4773a1C6523a860d88FfEE3EE35D7bb1CfB1b9
+
+- igUSD Token: https://etherscan.io/address/0xd3dA539350fA313C8CAb9A8542BAa2f8c08a14a5
+- igUSD MembershipNFT: https://etherscan.io/address/0x785b66e5Fa9f39152D70C5F135A587A82bAd098d
+- igUSD FeeParticipationAccumulator: https://etherscan.io/address/0xe05A776fF53d7B41cf68d59A2960cbcC3C2959f1
+- USDC (backing asset): https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+
+- igGOLD Token: https://etherscan.io/address/0x03c8f8492A3b9be56B0844c571A6d3DeC042DCe1
+- igGOLD MembershipNFT: https://etherscan.io/address/0x8CDeaAb9057D180717473a63359e6453DBd2b223
+- igGOLD FeeParticipationAccumulator: https://etherscan.io/address/0xB83Fe1Cc7fB58D1305651F64E9Dfb01272FaAD2F
+- XAUT (backing asset): https://etherscan.io/address/0x68749665FF8D2d112Fa859AA293F07A622782F38
+- XAUT/USD price feed: https://etherscan.io/address/0x214eD9Da11D2fbe465a6fc601a91E62EbEc1a0D6
+
+- igBTC Token: https://etherscan.io/address/0xd1446e4a2F3f5A7d1ED245AE18b62FB3156ce296
+- igBTC MembershipNFT: https://etherscan.io/address/0x58f1FF65a2df37BEC445D990B45d09fd1d89Cc17
+- igBTC FeeParticipationAccumulator: https://etherscan.io/address/0x6156464B57b72f41DE38A17fdBbB7087E8B3F6f3
+- WBTC (backing asset): https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599
+- BTC/USD price feed: https://etherscan.io/address/0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c
 
 ## Solidity source mirrors (verbatim; for AI verification)
 
