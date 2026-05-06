@@ -145,7 +145,7 @@ Every trade fee is split:
   - **Buy minimum**: `MIN_AMOUNT = 1_000` backing units (0.001 USDC for igUSD; for igGOLD/igBTC this is in backing-token decimals and corresponds to a “dust” minimum).
   - **Refund minimum**: `MIN_IG_AMOUNT = 0.001 IG` (18 decimals).
 - **App UI minimums (app.ignitus.network, frontend policy):**
-  - **Buy minimums**: **0.1 USDC** (igUSD), **0.01 XAUT** (igGOLD), **0.001 WBTC** (igBTC)
+  - **Buy minimums**: **0.1 USDC** (igUSD), **0.0002 XAUT** (igGOLD), **0.00002 WBTC** (igBTC)
   - **Sell minimum**: **0.1 IG** (all products)
 
 ---
